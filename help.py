@@ -1,6 +1,6 @@
 import fontstyle
 import openai
-openai.api_key = "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"
+openai.api_key = "Enter your OpenAi api key Here"
 messages = [{'role':'system','content':"you are a intelligent assistant."}]
 while True:
     message = input(fontstyle.apply("Mr suraj ask:-","impact/blue/bold"))
